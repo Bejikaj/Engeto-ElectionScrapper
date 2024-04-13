@@ -1,3 +1,15 @@
+"""
+
+projekt_3.py: třetí projekt do Engeto Online Python Akademie
+
+author: Jan Benáček
+
+email: Jan.Benacek@seznam.cz
+
+discord: Bejikaj#2628
+
+"""
+
 import requests
 from bs4 import BeautifulSoup
 import sys
