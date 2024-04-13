@@ -76,7 +76,7 @@ def get_parties_list(soup_list):
         tables = soup.find_all("td", class_="overflow_name")
         for td in tables:
             party_name = td.text.strip()
-            if party_name not in parties_list:  # Ensure uniqueness before adding
+            if party_name not in parties_list:
                 parties_list.append(party_name)
     return parties_list
 
